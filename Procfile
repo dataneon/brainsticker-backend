@@ -1,0 +1,1 @@
+web: gunicorn brainsticker_django.wsgi
