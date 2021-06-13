@@ -14,5 +14,5 @@ urlpatterns = [
     path('notes/', views.NoteList.as_view(), name='note_list'),
     path('notes/<int:pk>', views.NoteDetail.as_view(), name='note_detail'),
     # users paths
-    path('users/', views.UserList.as_view(), name='user_list'),
+    # path('users/', views.UserList.as_view(), name='user_list'),
 ]
